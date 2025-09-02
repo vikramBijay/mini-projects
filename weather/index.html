@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <section class="container"> 
+  <!-- nav bar -->
+    <section class="nav">
+    <div class="logo">
+ <p>vikram</p>
+    </div>
+    <div class="menu">
+      <img onclick="hide()" class="closebtn" src="icons8-close-50.png" alt="">
+      <ul>
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">contact</a></li>
+        <li><a href="">projects</a></li>
+        <li><a href="">login</a></li>
+
+      </ul>
+    </div>
+    <label class="label">
+  <div class="toggle">
+    <input class="toggle-state" type="checkbox" name="check" value="check" />
+    <div class="indicator"></div>
+  </div>
+</label>
+<img onclick="show()" class="menubtn" src="icons8-menu-50.png" alt="">
+  </section>
+  </section>
+<!-- weather app -->
+ <div class="weather">
+    <div class="cards">
+        <div class="search">
+            <input id="inputvalue" type="text" placeholder="city name">
+            <button class="searchbtn"><img src="images/search.png" alt=""></button>
+        </div>
+        <div class="hero">
+            <img class="heroImg" src="images/clear.png" alt="">
+            <div class="temploc">
+                <h4 class="temp">0°c</h4>
+                <h4 class="city">hello'user</h4>
+            </div>
+          <div class="humispeed">
+            <div class="humi">
+            <img src="images/humidity.png" alt="">
+            <div class="text">
+              <p class="humidity">0%</p>
+              <p >humidity</p>
+            </div>
+            </div>
+            <div class="speed">
+            <img src="images/wind.png" alt="">
+            <div class="text">
+               <p class="wind">0 km/h</p>
+              <p>wind speed</p>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+ </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

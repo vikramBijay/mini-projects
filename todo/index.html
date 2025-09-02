@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container"> 
+  <!-- nav bar -->
+    <section class="nav">
+    <div class="logo">
+ <p>vikram</p>
+    </div>
+    <div class="menu">
+      <img onclick="hide()" class="closebtn" src="icons8-close-50.png" alt="">
+      <ul>
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">contact</a></li>
+        <li><a href="">projects</a></li>
+        <li><a href="">login</a></li>
+
+      </ul>
+    </div>
+    <label class="label">
+  <div class="toggle">
+    <input class="toggle-state" type="checkbox" name="check" value="check" />
+    <div class="indicator"></div>
+  </div>
+</label>
+<img onclick="show()" class="menubtn" src="icons8-menu-50.png" alt="">
+  </section>
+  </section>
+
+<section class="main">
+ <div class="todo">
+    <h3>to-do list</h3>
+    <div class="inputsec">
+        <input id="input" type="text" placeholder="enter the list">
+        <p class="addbtn">add</p>
+       
+    </div>
+    <div class="tasksec">
+        <!-- <div class="task">
+            <p>hello</p>
+            <div class="btn">
+                <button class="edit">edit</button>
+                <button class="del">delete</button>
+            </div>
+        </div> -->
+   
+    </div>
+ </div>
+</section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="darktheme.css">
+</head>
+<body>
+<section class="container"> 
+  <!-- nav bar -->
+    <section class="nav">
+    <div class="logo">
+ <p>vikram</p>
+    </div>
+    <div class="menu">
+      <img onclick="hide()" class="closebtn" src="icons8-close-50.png" alt="">
+      <ul>
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">contact</a></li>
+        <li><a href="">projects</a></li>
+        <li><a href="">login</a></li>
+
+      </ul>
+    </div>
+    <label class="label">
+  <div class="toggle">
+    <input class="toggle-state" type="checkbox" name="check" value="check" />
+    <div class="indicator"></div>
+  </div>
+</label>
+<img onclick="show()" class="menubtn" src="icons8-menu-50.png" alt="">
+  </section>
+  </section>
+
+   <section class="calculator">
+   <div class="display">0</div>
+   <div class="btn">
+    <button class="clear">clear</button>
+    <button class="del">del</button>
+    <button class="airthmatic">+</button>
+    <button class="airthmatic">-</button>
+    <button class="number">9</button>
+    <button class="number">8</button>
+    <button class="number">7</button>
+
+    <button class="airthmatic">/</button>
+
+    <button class="number">6</button>
+    
+    <button class="number">5</button>
+    <button class="number">4</button>
+        <button class="airthmatic">*</button>
+    <button class="number">3</button>
+    <button class="number">2</button>
+    <button class="number">1</button>
+    <button class="airthmatic">%</button>
+    <button class="number">0</button>
+    <button class="number">.</button>
+    <button class="equal">=</button>
+   </div>
+  </section>
+  <!-- nav end -->
+
+
+<script src="script.js"></script>
+</body>
+</html>
