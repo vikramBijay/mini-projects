@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stop watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container"> 
+  <!-- nav bar -->
+    <section class="nav">
+    <div class="logo">
+ <p>vikram</p>
+    </div>
+    <div class="menu">
+      <img onclick="hide()" class="closebtn" src="image/icons8-close-50.png" alt="">
+      <ul>
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">contact</a></li>
+        <li><a href="">projects</a></li>
+        <li><a href="">login</a></li>
+
+      </ul>
+    </div>
+    <label class="label">
+  <div class="toggle">
+    <input class="toggle-state" type="checkbox" name="check" value="check" />
+    <div class="indicator"></div>
+  </div>
+</label>
+
+<img onclick="show()" class="menubtn" src="image/icons8-menu-50.png" alt="">
+  </section>
+  </section>
+
+<div class="clock">
+  <div class="btns">
+    <button class="stopwatchbtn">stopwatch</button>
+    <button class="timerbtn">timer</button>
+  </div>
+  <div class="stopwatch">
+<h4 class="stoph4">stopwatch</h4>
+<div class="stoploader">
+  <div class="circle">
+    <div class="innercircle">
+      <div class="time">00:00:00</div>
+      <div class="btn">
+        <button class="start">start</button>
+        <button class="pause">pause</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="reset">
+  <button class="reset"><img src="image/icons8-replay-64.png" alt=""></button>
+</div>
+  </div>
+  
+  <div class="timerwatch">
+<h4 class="stoph4">timer</h4>
+<div class="timerloader">
+  <div class="circle">
+    <div class="innercircle">
+      <div class="timedisplay">00:00:00</div>
+      <div class="btn">
+        <button class=" timerstart">start</button>
+        <button class=" timerpause">pause</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="reset ">
+  <button class="retime"><img src="image/icons8-replay-64.png" alt=""></button>
+</div>
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
